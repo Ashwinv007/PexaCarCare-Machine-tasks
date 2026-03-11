@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User List</title>
+    </head>
+
+    <body>
+        <div id="user-list">
+            <ul>
+                <li>Alice</li>
+                <li>Bob</li>
+                <li>Charlie</li>
+            </ul>
+        </div>
+
+        <script>
+            const ul=document.querySelector("#user-list ul");
+
+            const newUser=document.createElement("li");
+
+            newUser.textContent = "David"
+
+            ul.appendChild(newUser);
+
+            ul.removeChild(ul.firstElementChild)
+        </script>
+    </body>
+</html>
