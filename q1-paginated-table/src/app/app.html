@@ -1,0 +1,35 @@
+<h2>User List</h2>
+
+<label for="">Rows per page:</label>
+<select name="" id="" (change)="changeRows($event)">
+  <option value="5" selected>5</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+</select>
+
+<br><br>
+<table border="1">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+  </tr>
+
+  <tr *ngFor="let user of users | slice:0:rowsPerPage">
+    <td>{{user.id}}</td>
+    <td>{{user.first_name}} {{user.last_name}}</td>
+    <td>{{user.email}}</td>
+
+  </tr>
+</table>
+
+<br>
+
+<div>
+  <button
+  *ngFor="let page of [].constructor(totalPages); let i =index"
+  (click)="changePage(i+1)"
+  >
+  {{i+1}}
+  </button>
+</div>
