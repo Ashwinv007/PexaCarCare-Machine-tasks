@@ -32,7 +32,7 @@ Questions 2-5 - Vanilla JavaScript
 
 Open the file directly in any browser:
 
-solution/index.html
+index.html 
 
 Q2 – Debounce function demo: click the button rapidly, counter only increments after you stop for 500ms
 
