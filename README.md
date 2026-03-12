@@ -1,4 +1,4 @@
-#Machine Test - Solutions
+## Machine Test - Solutions
 
 ## Project Structure
 
@@ -28,7 +28,7 @@ Features:
 
 
 
-Questions 2-5 - Vanilla JavaScript 
+## Questions 2-5 - Vanilla JavaScript 
 
 Open the file directly in any browser:
 
