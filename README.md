@@ -3,12 +3,12 @@
 ## Project Structure
 
 -`q1-paginated-table`
-- `solution/`
-    - `index.html`
-    - `js/`
-        - `questions.js`
-    - `css/`
-        - `styles.css`
+
+- `index.html`
+- `js/`
+    - `questions.js`
+- `css/`
+    - `styles.css`
 
 ## Question 1: Paginated Table (Angular)
 
